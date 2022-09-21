@@ -25,7 +25,7 @@ class Question {
     this.title.html("MyQuiz Game");
     this.title.position(350, 0);
 //debug the syntax below to display the question
-     this.html("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
+     this.question.html("Question:- What starts and ends with the letter ‘E’, but has only one letter? " );
     
     this.question.position(150, 80);
     this.option1.html("1: Everyone " );
@@ -45,8 +45,8 @@ class Question {
       
    
 //correct the syntac below to display the thank you message and position 
-      this.Message.html("Thank You, Your Answer Has Been Submitted");
-      this.message.position();
+      this.message.html("Thank You, Your Answer Has Been Submitted");
+      this.message.position(350,350);
 
       
 
